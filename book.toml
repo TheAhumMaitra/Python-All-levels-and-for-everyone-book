@@ -1,0 +1,23 @@
+[book]
+title = "Python"
+authors = ["Ahum Maitra"]
+language = "en"
+
+[build]
+build-dir = "python-all-level-book-web-src"
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/TheAhumMaitra/Python-All-levels-book"
+git-repository-icon = "fab-github"
+input-404 = "not-found.md"
+smart-punctuation = true
+definition-lists = true
+admonitions = true
+
+[output.html.playground]
+editable = false
+copyable = true
+copy-js = true
+line-numbers = false
+runnable = true
